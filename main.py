@@ -24,8 +24,8 @@ for event in longpoll.listen():
             if vars1[0] in str(event):
                 print(4)
                 vk.messages.send(
-                    key = ('a2f28515e24a4fd90934b7abd13372ae5cd30719'),
-                    server = "https://lp.vk.com/wh203065829",
+                    key = ('__'),
+                    server = "__",
                     ts= "31",
                     chat_id=event.chat_id,
                     random_id=get_random_id(),
@@ -54,8 +54,8 @@ for event in longpoll.listen():
                 #message
                 if sex == 2:
                     vk.messages.send(
-                        key=('a2f28515e24a4fd90934b7abd13372ae5cd30719'),
-                        server="https://lp.vk.com/wh203065829",
+                        key=('__'),
+                        server="__",
                         ts="31",
                         keyboard=keyboard.get_keyboard(),
                         chat_id=event.chat_id,
@@ -65,8 +65,8 @@ for event in longpoll.listen():
                 else:
                     if eleven_meme:
                         vk.messages.send(
-                            key=('a2f28515e24a4fd90934b7abd13372ae5cd30719'),
-                            server="https://lp.vk.com/wh203065829",
+                            key=('__'),
+                            server="__",
                             ts="31",
                             keyboard=keyboard.get_keyboard(),
                             chat_id=event.chat_id,
@@ -76,8 +76,8 @@ for event in longpoll.listen():
                         )
                     else:
                         vk.messages.send(
-                            key=('a2f28515e24a4fd90934b7abd13372ae5cd30719'),
-                            server="https://lp.vk.com/wh203065829",
+                            key=('__'),
+                            server="__",
                             ts="31",
                             keyboard=keyboard.get_keyboard(),
                             chat_id=event.chat_id,
